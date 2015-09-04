@@ -3,7 +3,7 @@ This is a standalone PCL that can be used to access the XamarinCRM v2 Azure Mobi
 
 ##Notes
 * Requires an IDE that supports C# 6.0 features, such as Visual Studio 2015 or Xamarin Studio.
-* The base URL for the service is currently: `https://xamarincrmv2-catalogdataservice.azure-mobile.net/`
+* The base URL for the service is currently: `https://xamarincrmv2-catalogdataservice.azure-mobile.net/api/`. Use that exact string, including the trailing slash.
 * API key for the service is currently `IibptMvpFmJRBisbVyiCheBukYjzsD75`
 * You must pass the base service URL and the API key to the constructor of the `CatalogDataClient` class
 * You can access the API documentation here: `https://xamarincrmv2-catalogdataservice.azure-mobile.net/help`, for which you'll need to provide the API key as the password when prompted in your browser. Username is blank.
