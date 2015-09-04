@@ -33,7 +33,7 @@ namespace XamarinCRMv2CatalogDataServiceClient
                 }
                 catch (Exception ex)
                 {
-                    var newEx = new Exception((await response.Content.ReadAsStringAsync().ConfigureAwait(false)), ex);
+                    var newEx = new Exception(await response.Content.ReadAsStringAsync().ConfigureAwait(false), ex);
                     newEx.WriteFormattedMessageToDebugConsole(this);
                     throw newEx;
                 }
